@@ -1,3 +1,3 @@
 # gtm-uim-retargeting-container
 
-GTM UIM Reatargeting Container Documentaion
+GTM UIM Reatargeting Container Documentation
