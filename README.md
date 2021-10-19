@@ -1,10 +1,10 @@
-### The GTM UIM Profiling Container is a simple way to integrate the UIM profiling container via the Google Tag Manager
+### The GTM UIM Profiling Container is a simple way to integrate the UIM Profiling Container via the Google Tag Manager
 
-#  UIM profiling container
-The UIM profiling container is the data basis for dynamic product retargeting at all stages of the conversion funnel. The event-based profiling creation is used to address interested again within the media reach of United Internet Media.
+#  UIM Profiling Container
+The UIM Profiling Container is the data basis for dynamic product retargeting at all stages of the conversion funnel. The event-based profiling creation is used to address interested again within the media reach of United Internet Media.
 
 ## Configuration
-![DPRT container name](https://raw.githubusercontent.com/dynamic-product-retargeting/gtm-uim-retargeting-container/main/dprt.png?raw=true)
+![UIM Profiling Container](https://raw.githubusercontent.com/dynamic-product-retargeting/gtm-uim-retargeting-container/main/uim-profiling-container.png)
 
 ### UIM Profiling Container name
 Enter your UIM Profiling Container name
