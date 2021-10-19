@@ -1,14 +1,16 @@
-# DPRT Retargeting Container
-The UIM profiling container is the data basis for dynamic product retargeting. Event-based profiling is used to retarget interested parties on United Internet Media's media reach.
+### The GTM UIM Profiling Container is a simple way to integrate the UIM profiling container via the Google Tag Manager
+
+#  UIM profiling container
+The UIM profiling container is the data basis for dynamic product retargeting at all stages of the conversion funnel. The event-based profiling creation is used to address interested again within the media reach of United Internet Media.
 
 ## Configuration
 ![DPRT container name](https://raw.githubusercontent.com/dynamic-product-retargeting/gtm-uim-retargeting-container/main/dprt.png?raw=true)
 
-### DPRT container name
-Enter your Profiling Name
+### UIM Profiling Container name
+Enter your UIM Profiling Container name
 
-### Event Types
-For different events use this values (case insensitive) for "Event" field:
+### Event
+For different stages of the conversion funnel select one of the following "Event" values via dropdown:
 * `general` - marking user on unspecific pages 
 * `category` - category of product
 * `product` - detail of product
