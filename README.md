@@ -2,7 +2,7 @@
 
 #  UIM Profiling Container
 
-The UIM Profiling Container is the data basis for dynamic product retargeting at all stages of the conversion funnel. The event-based profiling solution can be used to readdress interested parties within the media reach of [United Internet Media](https://www.united-internet-media.de/).
+The UIM Profiling Container is the data collection basis for dynamic product retargeting at all stages of the conversion funnel. The event-based profiling solution can be used to readdress interested users within the media reach of [United Internet Media](https://www.united-internet-media.de/).
 
 ## Configuration
 
@@ -10,7 +10,7 @@ The UIM Profiling Container is the data basis for dynamic product retargeting at
 
 ### UIM Profiling Container name
 
-Enter your UIM Profiling Container name
+Enter your UIM Profiling Container name.
 
 ### event type
 
@@ -21,6 +21,8 @@ For different stages of the conversion funnel select one of the following "Event
 * `product`: detail of product
 * `basket`: view of basket
 * `checkout`: sucessfull order
+
+Depending on the event type, the following fields are available.
 
 #### general
 
