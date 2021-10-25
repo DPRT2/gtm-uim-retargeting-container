@@ -45,7 +45,7 @@ Select at least one of the above.
 #### basket
 
 * `basket_total`: Total gross price incl. tax of the basket (e.g. "123.45"). Use decimal points ".". No thousands separators.
-* `basket_items`: (optional) Comma separated list of item IDs in the basket. Value must be a string. Example: "123456,234567,345678". <sub>1</sub>
+* `basket_items`: (optional) Comma separated list of item IDs in the basket. Value must be a string. Example: "123456,234567,345678". <sup>1</sup>
 * `basket_currency`: Currency code corresponding to ISO 4217 (e.g. "EUR", "CHF", ...).
 
 #### checkout
@@ -65,4 +65,4 @@ Select at least one of the above.
 * `privacy_law`: Possible values: gdpr, ccpa, ...
 * `privacy_consent`: Defines if a consent was given by the user. Possible values: 1 if consent is granted, 0 if not.
 
-<sub>1</sub> For converting array to string see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString
+<sup>1</sup> For converting array to string see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString
