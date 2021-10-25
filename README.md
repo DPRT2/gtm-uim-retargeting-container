@@ -45,13 +45,13 @@ Select at least one of the above.
 #### basket
 
 * `basket_total`: Total gross price incl. tax of the basket (e.g. "123.45"). Use decimal points ".". No thousands separators.
-* `basket_items`: (optional) Comma separated list of item IDs in the basket.
+* `basket_items`: (optional) Comma separated list of item IDs in the basket. Value must be a string. Example: "123456,234567,345678".
 * `basket_currency`: Currency code corresponding to ISO 4217 (e.g. "EUR", "CHF", ...).
 
 #### checkout
 
 * `order_id`: Individual order ID (order number/PO number).
-* `order_items`: Comma separated list of purchased items (product id).
+* `order_items`: Comma separated list of purchased items (product id). Value must be a string. Example: "123456,234567,345678".
 * `order_total`: Total gross price incl. tax of order items (e.g. "123.45"). Use decimal points "." as separator. No thousands separators.
 * `order_shipping`: (optional) Shipping price for the order (e.g. "4.99"). Use decimal points "." as separator. No thousands separators.
 * `order_currency`: Currency code corresponding to ISO 4217 (e.g. "EUR", "CHF", ...).
