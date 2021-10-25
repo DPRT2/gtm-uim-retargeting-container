@@ -51,7 +51,7 @@ Select at least one of the above.
 #### checkout
 
 * `order_id`: Individual order ID (order number/PO number).
-* `order_items`: Comma separated list of purchased items (product id). Value must be a string. Example: "123456,234567,345678". <sub>1</sub>
+* `order_items`: Comma separated list of purchased items (product id). Value must be a string. Example: "123456,234567,345678". <sup>1</sup>
 * `order_total`: Total gross price incl. tax of order items (e.g. "123.45"). Use decimal points "." as separator. No thousands separators.
 * `order_shipping`: (optional) Shipping price for the order (e.g. "4.99"). Use decimal points "." as separator. No thousands separators.
 * `order_currency`: Currency code corresponding to ISO 4217 (e.g. "EUR", "CHF", ...).
