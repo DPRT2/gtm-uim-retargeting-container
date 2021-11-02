@@ -58,7 +58,7 @@ Select at least one of the above.
 
 ### netID
 
-* `uuid_netid`: netID Identifier if available - for more Information see [developer.netid.de/](https://developer.netid.de/)
+* `uuid_netid`: netID Identifier if available - for more Information see [https://developer.netid.de/](https://developer.netid.de/)
 
 ### Privacy
 
