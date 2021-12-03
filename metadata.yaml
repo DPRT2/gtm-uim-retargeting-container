@@ -1,5 +1,5 @@
 homepage: "https://www.united-internet-media.de/"
-documentation: "https://github.com/DPRT2/gtm-uim-retargeting-container/blob/main/README.md"
+documentation: "https://github.com/united-internet-media/gtm-uim-profiling-container"
 versions:
-  - sha: 77b40d079e9d70dfb0ce5d256951ceb925fa4486
+  - sha: 168f1edf11b87b7e9e68f2f9769e25b4ba0a7dfe
     changeNotes: Initial release.
