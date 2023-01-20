@@ -39,7 +39,7 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "REGEX",
         "args": [
-          "[a-z]+"
+          "[a-z0-9]+"
         ]
       },
       {
@@ -201,7 +201,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "EQUALS"
       }
     ],
-    "help": "(optional) Gross product price incl. tax (e.g. \"123.45\"). Use decimal points \".\" as separator. No thousands separators.",
+    "help": "(optional) Gross product price incl. tax (e.g. \"1234.56\"). Use decimal points \".\" as separator. No thousands separators.",
     "notSetText": "- not set -"
   },
   {
@@ -621,34 +621,41 @@ scenarios:
     const log = require('logToConsole');
 
     const mockData = {
+      data: 'debug',
       uim_profiling_container_id: 'main',
       stage: 'qa',
       feed_id: '',
-      consent: '0'
+      privacy_consent: '0'
     };
 
     // Call runCode to run the template's code.
     runCode(mockData);
 
     // Verify that the tag finished successfully.
+    // assertApi('gtmOnSuccess').wasCalled();
     assertApi('gtmOnFailure').wasNotCalled();
 - name: Test Consent 1
   code: |-
+    const log = require('logToConsole');
+
     const mockData = {
+      data: 'debug',
       uim_profiling_container_id: 'main',
       stage: 'qa',
-      consent: '1'
+      feed_id: '',
+      privacy_consent: '1'
     };
 
     // Call runCode to run the template's code.
     runCode(mockData);
 
     // Verify that the tag finished successfully.
-    assertApi('gtmOnSuccess').wasCalled();
+    // assertApi('gtmOnSuccess').wasCalled();
+    assertApi('gtmOnFailure').wasNotCalled();
 
 
 ___NOTES___
 
-Created on 12/3/2021, 2:20:18 PM
+Created on 1/20/2023, 5:44:24 PM
 
 

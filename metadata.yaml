@@ -1,5 +1,11 @@
 homepage: "https://www.united-internet-media.de/"
 documentation: "https://github.com/united-internet-media/gtm-uim-profiling-container"
 versions:
+  
+  # latest
+  - sha: 
+    changeNotes: allow alphnumeric UIM Profiling Container ID
+  
+  # previous
   - sha: 168f1edf11b87b7e9e68f2f9769e25b4ba0a7dfe
     changeNotes: Initial release.
