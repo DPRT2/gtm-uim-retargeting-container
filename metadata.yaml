@@ -3,7 +3,7 @@ documentation: "https://github.com/united-internet-media/gtm-uim-profiling-conta
 versions:
   
   # latest
-  - sha: 
+  - sha: b4fb36b989c0f25d4099f83074cdceced4301824
     changeNotes: allow alphnumeric UIM Profiling Container ID
   
   # previous
